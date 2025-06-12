@@ -75,8 +75,6 @@ h3 {
 }
 
 h4 {
-  padding-top: 20px;
-  padding-bottom: 15px;
   font-size: 20px;
   font-weight: 900;
 }
@@ -145,7 +143,7 @@ i.fa-arrow-down {
 }
 
 .col-30 {
-  width: 29%;
+  width: 30%;
 
 }
 
@@ -234,6 +232,10 @@ i.fa-arrow-down {
 }
 
 /* margins */
+.mt-10 {
+  margin-top: 10px;
+}
+
 .mt-50 {
   margin-top: 50px;
 }
