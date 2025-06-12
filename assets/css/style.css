@@ -67,17 +67,17 @@ header {
 
 }
 
-#jumbotron {
+.jumbotron {
   background-color: #B4D0E6;
   padding: 80px 0;
 }
 
-#jumbotron h1 {
+.jumbotron h1 {
   font-size: 50px;
   margin: 80px 0;
 }
 
-#jumbotron h1 {
+.jumbotron h1 {
   font-size: 50px;
 }
 
