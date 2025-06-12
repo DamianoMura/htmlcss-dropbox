@@ -18,7 +18,7 @@ main {
 
 .container-sm {
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 1000px;
 
 }
 
@@ -56,10 +56,17 @@ header {
 
 }
 
-.jumbotron .row h2 {
+h2 {
   font-size: 80px;
   font-weight: 900;
 }
+
+h3 {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+
 
 .jumbo-img {
   max-width: 100%;
@@ -67,6 +74,55 @@ header {
 
 i.fa-arrow-down {
   font-size: 50px;
+}
+
+.rad {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  border: 2px solid grey;
+  margin-right: 10px;
+}
+
+.rad.rad-blue {
+  border: 5px solid #005EF6;
+}
+
+.billing span {
+  margin-right: 30px;
+}
+
+.card {
+
+  border: 2px solid rgb(209, 205, 205);
+  margin-bottom: 10px;
+}
+
+.card-header {
+  border-bottom: 2px solid rgb(209, 205, 205);
+  text-align: center;
+  padding: 5px auto;
+}
+
+.card-body {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.card-body h4 {
+  padding-top: 20px;
+  padding-bottom: 15px;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.card-body .btn {
+  margin-bottom: 20px;
+}
+
+.card-body hr {
+  margin: 30px 80% 30px 0px;
+  color: rgb(209, 205, 205);
 }
 
 
@@ -79,7 +135,7 @@ i.fa-arrow-down {
 }
 
 .col-30 {
-  width: 30%;
+  width: 29%;
 
 }
 
@@ -112,6 +168,10 @@ i.fa-arrow-down {
 /* utility */
 .block {
   display: block;
+}
+
+.inline {
+  display: inline-block;
 }
 
 .pos-rel {
@@ -160,8 +220,20 @@ i.fa-arrow-down {
   margin-top: 50px;
 }
 
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mb-5 {
+  margin-bottom: 5px;
+}
+
 .mb-50 {
   margin-bottom: 50px;
+}
+
+.mx-5 {
+  margin: 0 5px;
 }
 
 .my-20 {
@@ -179,6 +251,10 @@ i.fa-arrow-down {
 /* flex */
 .flex {
   display: flex;
+}
+
+.direction-col {
+  flex-direction: column;
 }
 
 .wrap {
@@ -205,7 +281,18 @@ i.fa-arrow-down {
   text-align: right;
 }
 
+/* txt */
+.f-w-900 {
+  font-weight: 900;
+}
 
+.txt-grey {
+  color: grey;
+}
+
+.txt-blue {
+  color: #0061FE;
+}
 
 /* bg-colors*/
 .bg-silver {
