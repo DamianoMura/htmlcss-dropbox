@@ -46,9 +46,17 @@ header {
 
 .btn {
   padding: 10px 15px;
-  background-color: #0061FE;
   text-decoration: none;
+}
+
+.btn-blue {
+  background-color: #0061FE;
   color: white;
+}
+
+.btn-blue {
+  border: 1px solid rgb(209, 205, 205);
+  color: rgb(209, 205, 205);
 }
 
 .bg-jumbotron {
@@ -68,7 +76,7 @@ h3 {
 
 
 
-.jumbo-img {
+img {
   max-width: 100%;
 }
 
