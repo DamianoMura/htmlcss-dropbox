@@ -152,6 +152,7 @@ img {
 }
 
 .card-header {
+  padding: 10px 0;
   border-bottom: 1px solid grey;
   text-align: center;
 }
@@ -167,6 +168,14 @@ img {
 .c-b-sect {
   width: 100%;
   padding: 10px 30px;
+}
+
+.c-b-sect p:first-of-type {
+  font-weight: 900;
+}
+
+.c-b-sect.col-100 p:last-of-type {
+  color: grey;
 }
 
 .c-b-sect h4,
