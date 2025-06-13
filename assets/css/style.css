@@ -55,6 +55,7 @@ header {
 }
 
 .dropdown-content {
+
   display: none;
   position: absolute;
   top: 25;
@@ -62,10 +63,14 @@ header {
 }
 
 .dropdown-content ul li {
-
-  padding: 5px 10px;
-  border: 1px solid black;
+  display: flex;
+  padding: 5px 20px;
   background-color: white;
+}
+
+.dropdown-content ul li i {
+  margin-right: 10px;
+  min-width: 50px;
 }
 
 .dropdown-content ul li:hover {
