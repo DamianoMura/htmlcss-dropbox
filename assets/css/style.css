@@ -63,14 +63,17 @@ header {
 }
 
 .dropdown-content ul li {
-  display: flex;
   padding: 5px 20px;
   background-color: white;
 }
 
-.dropdown-content ul li i {
+.dropdown-content ul li a i {
   margin-right: 10px;
   min-width: 50px;
+}
+
+.dropdown-content ul li a {
+  display: flex
 }
 
 .dropdown-content ul li:hover {
