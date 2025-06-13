@@ -114,7 +114,7 @@ i.fa-arrow-down {
 .card-header {
   border-bottom: 2px solid rgb(209, 205, 205);
   text-align: center;
-  padding: 5px auto;
+  padding: 10px 0;
 }
 
 .card-body {
@@ -205,6 +205,10 @@ i.fa-arrow-down {
 
 .px-50 {
   padding: 0 50px;
+}
+
+.py-10 {
+  padding: 10px 0;
 }
 
 .py-15px {
