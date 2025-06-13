@@ -71,6 +71,7 @@ header {
   background-color: rgb(212, 212, 212);
 }
 
+/*buttons*/
 .btn {
   padding: 10px 15px;
   text-decoration: none;
@@ -145,7 +146,50 @@ img {
 }
 
 /* card in section plans */
+.card {
+  border: 1px solid grey;
+  margin-bottom: 20px;
+}
 
+.card-header {
+  border-bottom: 1px solid grey;
+  text-align: center;
+}
+
+.card-body {
+  padding: 10px 0;
+}
+
+.card-body hr {
+  margin: 30px 70% 30px 30px;
+}
+
+.c-b-sect {
+  width: 100%;
+  padding: 10px 30px;
+}
+
+.c-b-sect h4,
+.c-b-sect p {
+  margin: 20px 0;
+}
+
+.c-b-sect * {
+  margin: 5px 0;
+}
+
+.c-b-sect ul {
+  list-style: none;
+}
+
+.c-b-sect ul li div i {
+  margin-right: 10px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: white;
+}
 
 /* footer */
 footer {
@@ -354,6 +398,10 @@ footer .container .row .col-20 ul li a:hover {
 
 .text-right {
   text-align: right;
+}
+
+.text-center {
+  text-align: center;
 }
 
 /* txt */
