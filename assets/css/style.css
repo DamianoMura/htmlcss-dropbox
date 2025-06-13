@@ -240,11 +240,11 @@ footer .container .row .col-20 ul li a:hover {
 
 /* structure */
 .row {
-  gap: 60px;
+  gap: 40px;
 }
 
 .col-20 {
-  width: calc(100% / 5 - 60px);
+  width: calc(100% / 5 - 40px);
 
 }
 
@@ -254,7 +254,7 @@ footer .container .row .col-20 ul li a:hover {
 }
 
 .col-33 {
-  width: calc(100% / 3 - 60px);
+  width: calc(100% / 3 - 40px);
 
 
 }
