@@ -191,6 +191,7 @@ img {
 }
 
 .c-b-sect ul {
+  min-height: 200px;
   list-style: none;
 }
 
