@@ -115,11 +115,13 @@ h2 {
 h3 {
   font-size: 40px;
   font-weight: 900;
+  margin: 20px 0;
 }
 
 h4 {
   font-size: 20px;
   font-weight: 900;
+  margin: 20px 0;
 }
 
 
@@ -178,7 +180,7 @@ img {
   color: grey;
 }
 
-.c-b-sect h4,
+
 .c-b-sect p {
   margin: 20px 0;
 }
@@ -235,7 +237,7 @@ footer .container .row .col-20 ul li a:hover {
 }
 
 /* structure */
-.row:not(.jumbotron .row) {
+.row {
   gap: 60px;
 }
 
@@ -250,7 +252,7 @@ footer .container .row .col-20 ul li a:hover {
 }
 
 .col-33 {
-  width: calc(100% / 3 - 40px);
+  width: calc(100% / 3 - 60px);
 
 
 }
@@ -271,7 +273,7 @@ footer .container .row .col-20 ul li a:hover {
 }
 
 .col-66 {
-  width: calc((100% / 3) *2 - 30px);
+  width: calc((100% / 3) *2 - 60px);
 
 }
 
@@ -416,6 +418,11 @@ footer .container .row .col-20 ul li a:hover {
 
 .a-c-center {
   align-content: center;
+}
+
+.j-s-flex-end {
+  justify-self: flex-end;
+
 }
 
 .text-right {
