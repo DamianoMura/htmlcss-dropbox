@@ -247,7 +247,8 @@ footer .container .row .col-20 ul li a:hover {
 }
 
 .col-30 {
-  width: 30%;
+  width: calc(100% / 3 - 20px);
+
 
 }
 
