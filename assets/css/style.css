@@ -147,10 +147,8 @@ img {
 
 /* card in section plans */
 .card {
-
-  border: 1px solid grey;
   height: 100%;
-
+  border: 1px solid grey;
 }
 
 .card-header {
@@ -238,16 +236,21 @@ footer .container .row .col-20 ul li a:hover {
 
 /* structure */
 .row:not(.jumbotron .row) {
-  gap: 20px;
+  gap: 60px;
 }
 
 .col-20 {
-  width: calc(100% / 5 - 20px);
+  width: calc(100% / 5 - 60px);
 
 }
 
 .col-30 {
-  width: calc(100% / 3 - 20px);
+  width: 30%;
+
+}
+
+.col-33 {
+  width: calc(100% / 3 - 40px);
 
 
 }
@@ -264,6 +267,11 @@ footer .container .row .col-20 ul li a:hover {
 
 .col-60 {
   width: 60%;
+
+}
+
+.col-66 {
+  width: calc((100% / 3) *2 - 30px);
 
 }
 
