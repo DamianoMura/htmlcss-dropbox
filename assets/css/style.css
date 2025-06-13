@@ -147,8 +147,10 @@ img {
 
 /* card in section plans */
 .card {
+
   border: 1px solid grey;
-  margin-bottom: 20px;
+  height: 100%;
+
 }
 
 .card-header {
@@ -235,10 +237,12 @@ footer .container .row .col-20 ul li a:hover {
 }
 
 /* structure */
-
+.row:not(.jumbotron .row) {
+  gap: 20px;
+}
 
 .col-20 {
-  width: 20%;
+  width: calc(100% / 5 - 20px);
 
 }
 
